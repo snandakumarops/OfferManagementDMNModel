@@ -41,9 +41,77 @@
     <dmn:knowledgeRequirement id="_19DF98FC-1DCD-4976-AC78-578801194F7C">
       <dmn:requiredKnowledge href="#_D35099F3-9C36-4ED8-8EF4-5D97B8BB6DF6"/>
     </dmn:knowledgeRequirement>
-    <dmn:literalExpression id="_256DAA3C-BB35-435F-A6F5-47D1AE0BECFA">
-      <dmn:text></dmn:text>
-    </dmn:literalExpression>
+    <dmn:context id="_C3F087CB-6806-4CAD-A398-26474608182C">
+      <dmn:contextEntry>
+        <dmn:variable id="_E5AE41AC-BFF6-4BBC-8B65-25B2DEACA1B0" name="class" typeRef="number"/>
+        <dmn:decisionTable id="_95D79073-1D2C-4880-B7F5-4849B1B6E28D" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
+          <dmn:input id="_311918BD-2E08-4CC5-AAA7-D0D02709DE8B">
+            <dmn:inputExpression id="_C2C2A74D-4B32-4936-8C45-91B419A04C67" typeRef="string">
+              <dmn:text>customerClass</dmn:text>
+            </dmn:inputExpression>
+          </dmn:input>
+          <dmn:output id="_23F6EC73-BA7A-402F-AFCC-2A2E264A1B3C" typeRef="number"/>
+          <dmn:rule id="_AD0E0243-D512-449F-A80A-3F65579E1146">
+            <dmn:inputEntry id="_9C244109-A936-446B-A99B-5CC0B562B980">
+              <dmn:text>"PLATINUM"</dmn:text>
+            </dmn:inputEntry>
+            <dmn:outputEntry id="_85CE584C-7516-4F37-8B9C-1D97E2255E38">
+              <dmn:text>3</dmn:text>
+            </dmn:outputEntry>
+          </dmn:rule>
+          <dmn:rule id="_155C5D03-4509-4AE2-984E-1465CA6991F6">
+            <dmn:inputEntry id="_94C95C8B-9FD7-4568-97EB-5086D02003D0">
+              <dmn:text>"GOLD"</dmn:text>
+            </dmn:inputEntry>
+            <dmn:outputEntry id="_B59B93E7-0EA1-432D-9641-49EC7BCE88A9">
+              <dmn:text>2</dmn:text>
+            </dmn:outputEntry>
+          </dmn:rule>
+          <dmn:rule id="_340384B8-32F7-483C-97DA-CE8ED18AEA46">
+            <dmn:inputEntry id="_2991BDDC-55E0-4AD3-80D7-2A437963563C">
+              <dmn:text>"SILVER"</dmn:text>
+            </dmn:inputEntry>
+            <dmn:outputEntry id="_BE280821-D358-4CED-9322-4CA2F965A52C">
+              <dmn:text>1</dmn:text>
+            </dmn:outputEntry>
+          </dmn:rule>
+        </dmn:decisionTable>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:decisionTable id="_2FEF02FE-77A6-4FC6-B8B5-3F5EEE87B325" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+          <dmn:input id="_3C21F443-63F1-463B-B44C-95C216C33CC2">
+            <dmn:inputExpression id="_5871A7C8-4E76-4FDC-80AC-CE1BA6050B7C" typeRef="number">
+              <dmn:text>segment</dmn:text>
+            </dmn:inputExpression>
+          </dmn:input>
+          <dmn:output id="_D85AA27E-3255-42EE-9991-1D0FB607B597" typeRef="string"/>
+          <dmn:rule id="_CA137F81-CC24-470C-B4A6-65A718D86826">
+            <dmn:inputEntry id="_616B0715-25C7-4235-87DE-10039FC2D93A">
+              <dmn:text>1</dmn:text>
+            </dmn:inputEntry>
+            <dmn:outputEntry id="_F3E25E14-4261-4628-B65E-B2D0C6E1D737">
+              <dmn:text>"LOW"</dmn:text>
+            </dmn:outputEntry>
+          </dmn:rule>
+          <dmn:rule id="_71B4B434-AE7B-4037-9E1D-FA3836BBFB3C">
+            <dmn:inputEntry id="_157C6227-5A5B-4C3E-AD6B-EA5138CB57D1">
+              <dmn:text>2</dmn:text>
+            </dmn:inputEntry>
+            <dmn:outputEntry id="_33EF3D26-1F50-48D0-B8F0-B5C7555938B9">
+              <dmn:text>"MEDIUM"</dmn:text>
+            </dmn:outputEntry>
+          </dmn:rule>
+          <dmn:rule id="_90DD6562-9F2D-4945-AB44-8C48BEA4DABA">
+            <dmn:inputEntry id="_99EB7194-0B52-4BDE-842F-F9A4219DC09F">
+              <dmn:text>3</dmn:text>
+            </dmn:inputEntry>
+            <dmn:outputEntry id="_C4AA672A-A03D-4217-AEF3-AE0CA6514B3B">
+              <dmn:text>"HIGH"</dmn:text>
+            </dmn:outputEntry>
+          </dmn:rule>
+        </dmn:decisionTable>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmn:inputData id="_8F770A31-DF5B-4BEB-8315-CA9946EF2662" name="Qualified Purchases">
     <dmn:extensionElements/>
@@ -212,7 +280,23 @@
             <kie:width>50.0</kie:width>
             <kie:width>370.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_256DAA3C-BB35-435F-A6F5-47D1AE0BECFA"/>
+          <kie:ComponentWidths dmnElementRef="_C3F087CB-6806-4CAD-A398-26474608182C">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>370.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_95D79073-1D2C-4880-B7F5-4849B1B6E28D">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_2FEF02FE-77A6-4FC6-B8B5-3F5EEE87B325">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_60BC11B5-A237-4D8F-AB6B-26983EAFD016">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
@@ -229,7 +313,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="119" y="153.3421052631579" width="100" height="50"/>
+        <dc:Bounds x="118" y="146.3421052631579" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_CECD30D9-7688-44E7-A18B-09377F376D19" dmnElementRef="_CECD30D9-7688-44E7-A18B-09377F376D19" isCollapsed="false">
@@ -299,7 +383,7 @@
         <di:waypoint x="372" y="198"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_19DF98FC-1DCD-4976-AC78-578801194F7C" dmnElementRef="_19DF98FC-1DCD-4976-AC78-578801194F7C">
-        <di:waypoint x="219" y="178.3421052631579"/>
+        <di:waypoint x="218" y="171.3421052631579"/>
         <di:waypoint x="322" y="173"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_8F49CADC-227A-4108-B08B-0F2E4A949DEF" dmnElementRef="_8F49CADC-227A-4108-B08B-0F2E4A949DEF">

@@ -38,6 +38,9 @@
     <dmn:informationRequirement id="_DB28702A-9B64-4A7D-947E-071C8678C892">
       <dmn:requiredInput href="#_EF5D8D6A-A19F-47D5-A16A-021E31D3EF82"/>
     </dmn:informationRequirement>
+    <dmn:knowledgeRequirement id="_19DF98FC-1DCD-4976-AC78-578801194F7C">
+      <dmn:requiredKnowledge href="#_D35099F3-9C36-4ED8-8EF4-5D97B8BB6DF6"/>
+    </dmn:knowledgeRequirement>
     <dmn:literalExpression id="_256DAA3C-BB35-435F-A6F5-47D1AE0BECFA">
       <dmn:text></dmn:text>
     </dmn:literalExpression>
@@ -226,7 +229,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="146" y="109" width="100" height="50"/>
+        <dc:Bounds x="119" y="153.3421052631579" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_CECD30D9-7688-44E7-A18B-09377F376D19" dmnElementRef="_CECD30D9-7688-44E7-A18B-09377F376D19" isCollapsed="false">
@@ -294,6 +297,10 @@
       <dmndi:DMNEdge id="dmnedge-_DB28702A-9B64-4A7D-947E-071C8678C892" dmnElementRef="_DB28702A-9B64-4A7D-947E-071C8678C892">
         <di:waypoint x="540.2990654205607" y="278"/>
         <di:waypoint x="372" y="198"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_19DF98FC-1DCD-4976-AC78-578801194F7C" dmnElementRef="_19DF98FC-1DCD-4976-AC78-578801194F7C">
+        <di:waypoint x="219" y="178.3421052631579"/>
+        <di:waypoint x="322" y="173"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_8F49CADC-227A-4108-B08B-0F2E4A949DEF" dmnElementRef="_8F49CADC-227A-4108-B08B-0F2E4A949DEF">
         <di:waypoint x="811" y="283"/>

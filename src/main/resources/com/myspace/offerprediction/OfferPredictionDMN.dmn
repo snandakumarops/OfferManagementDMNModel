@@ -28,7 +28,7 @@
   </dmn:businessKnowledgeModel>
   <dmn:decision id="_CECD30D9-7688-44E7-A18B-09377F376D19" name="Customer Segmentation">
     <dmn:extensionElements/>
-    <dmn:variable id="_97941656-C829-4156-ADF0-EE118E7C4A4A" name="Customer Segmentation"/>
+    <dmn:variable id="_97941656-C829-4156-ADF0-EE118E7C4A4A" name="Customer Segmentation" typeRef="string"/>
     <dmn:informationRequirement id="_5BC3EACC-76AE-4150-80D4-2F41A3F54663">
       <dmn:requiredInput href="#_0DDB062D-4F0F-4B69-A99E-AF1C1A395EAA"/>
     </dmn:informationRequirement>

@@ -78,7 +78,7 @@
         </dmn:decisionTable>
       </dmn:contextEntry>
       <dmn:contextEntry>
-        <dmn:decisionTable id="_2FEF02FE-77A6-4FC6-B8B5-3F5EEE87B325" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+        <dmn:decisionTable id="_2FEF02FE-77A6-4FC6-B8B5-3F5EEE87B325" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
           <dmn:input id="_3C21F443-63F1-463B-B44C-95C216C33CC2">
             <dmn:inputExpression id="_5871A7C8-4E76-4FDC-80AC-CE1BA6050B7C" typeRef="number">
               <dmn:text>segment</dmn:text>

@@ -47,7 +47,7 @@
         <dmn:decisionTable id="_95D79073-1D2C-4880-B7F5-4849B1B6E28D" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
           <dmn:input id="_311918BD-2E08-4CC5-AAA7-D0D02709DE8B">
             <dmn:inputExpression id="_C2C2A74D-4B32-4936-8C45-91B419A04C67" typeRef="string">
-              <dmn:text>customerClass</dmn:text>
+              <dmn:text>Customer Class</dmn:text>
             </dmn:inputExpression>
           </dmn:input>
           <dmn:output id="_23F6EC73-BA7A-402F-AFCC-2A2E264A1B3C" typeRef="number"/>

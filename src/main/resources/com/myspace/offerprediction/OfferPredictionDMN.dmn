@@ -47,7 +47,7 @@
   </dmn:decision>
   <dmn:inputData id="_8F770A31-DF5B-4BEB-8315-CA9946EF2662" name="Qualified Purchases">
     <dmn:extensionElements/>
-    <dmn:variable id="_E97122B3-0858-4C72-AC3E-DEA503615526" name="Qualified Purchases"/>
+    <dmn:variable id="_E97122B3-0858-4C72-AC3E-DEA503615526" name="Qualified Purchases" typeRef="string"/>
   </dmn:inputData>
   <dmn:inputData id="_0EDC61FC-332A-4C05-A6F3-79FBD7EB9942" name="Income">
     <dmn:extensionElements/>

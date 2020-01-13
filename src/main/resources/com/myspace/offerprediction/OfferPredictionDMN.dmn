@@ -78,7 +78,7 @@
         </dmn:decisionTable>
       </dmn:contextEntry>
       <dmn:contextEntry>
-        <dmn:variable id="_2F61ACBB-B308-425A-B3BE-4AB6F46D2336" name="result" typeRef="number"/>
+        <dmn:variable id="_2F61ACBB-B308-425A-B3BE-4AB6F46D2336" name="result"/>
         <dmn:invocation id="_0FAFF625-6EAE-4AD3-95D5-A2CC50983181">
           <dmn:literalExpression id="_B71F7EDD-CE72-4DAD-A7D7-BC93819DC6FC">
             <dmn:text></dmn:text>

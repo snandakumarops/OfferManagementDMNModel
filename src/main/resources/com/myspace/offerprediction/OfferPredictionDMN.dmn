@@ -51,7 +51,7 @@
   </dmn:inputData>
   <dmn:inputData id="_0EDC61FC-332A-4C05-A6F3-79FBD7EB9942" name="Income">
     <dmn:extensionElements/>
-    <dmn:variable id="_BD3FD788-140F-4193-A3A8-2E852FF9A4E4" name="Income"/>
+    <dmn:variable id="_BD3FD788-140F-4193-A3A8-2E852FF9A4E4" name="Income" typeRef="string"/>
   </dmn:inputData>
   <dmn:decision id="_EC01FD05-FBCF-4C5A-BC30-8337EF54874B" name="Offer">
     <dmn:extensionElements/>
@@ -187,11 +187,11 @@
   </dmn:decision>
   <dmn:inputData id="_0DDB062D-4F0F-4B69-A99E-AF1C1A395EAA" name="Age">
     <dmn:extensionElements/>
-    <dmn:variable id="_D05CFD21-95A9-40B8-9646-711B07DC1C6D" name="Age"/>
+    <dmn:variable id="_D05CFD21-95A9-40B8-9646-711B07DC1C6D" name="Age" typeRef="string"/>
   </dmn:inputData>
   <dmn:inputData id="_EF5D8D6A-A19F-47D5-A16A-021E31D3EF82" name="Customer Class">
     <dmn:extensionElements/>
-    <dmn:variable id="_CF4E8A55-0229-418F-A21E-9E280A832779" name="Customer Class"/>
+    <dmn:variable id="_CF4E8A55-0229-418F-A21E-9E280A832779" name="Customer Class" typeRef="string"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>

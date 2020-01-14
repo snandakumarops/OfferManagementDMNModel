@@ -122,7 +122,7 @@
           <dmn:output id="_4CEAEA0B-9697-4735-90C5-A8CA7DDACA43" typeRef="string"/>
           <dmn:rule id="_FE5266DD-5CA1-4F05-ACD9-ADFED6F04F5E">
             <dmn:inputEntry id="_EE21DA82-71F3-4747-8253-14B053036DDA">
-              <dmn:text>1</dmn:text>
+              <dmn:text>0</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_E00C2690-F0D4-4328-AF64-EE2C213D975F">
               <dmn:text>"LOW"</dmn:text>
@@ -130,7 +130,7 @@
           </dmn:rule>
           <dmn:rule id="_5F83FEF0-DC82-4E19-80E6-51CD846B1B1D">
             <dmn:inputEntry id="_A201B420-B489-4D6C-B260-F549D2BCDAE4">
-              <dmn:text>2</dmn:text>
+              <dmn:text>1</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_D471827A-4D64-4A71-A0F9-BFBBA8BA545D">
               <dmn:text>"MEDIUM"</dmn:text>
@@ -138,7 +138,7 @@
           </dmn:rule>
           <dmn:rule id="_E3F1C9CE-A0F9-4600-ABE1-FE0C18D79B78">
             <dmn:inputEntry id="_30B6AA97-1F12-4A37-A1D2-BB7AD2B08624">
-              <dmn:text>3</dmn:text>
+              <dmn:text>2</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_39F54EB7-29E3-493C-8DCC-299F20E4072E">
               <dmn:text>"HIGH"</dmn:text>

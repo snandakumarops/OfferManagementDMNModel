@@ -1,15 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_394B8012-7D73-4D4E-B6A3-088C14D828D9" xmlns:included2="customerSegmentation.pmml" xmlns:included1="customer_segmentation.pmml" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_06C3EA2F-0B20-49D0-BFAD-DFE3F3D19773" name="OfferPredictionDMN" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_394B8012-7D73-4D4E-B6A3-088C14D828D9">
   <dmn:extensionElements/>
-  <dmn:import id="_58C66F5E-C5EF-4401-9202-38B402F1D5FA" name="customersegments" namespace="customersegments" locationURI="customerSegmentation.pmml" importType="http://www.dmg.org/PMML-4_3"/>
+  <dmn:import id="_A2EBE616-8246-40BC-B183-D7ECDA6E2CC1" name="customersegments" namespace="customersegments" locationURI="customerSegmentation.pmml" importType="http://www.dmg.org/PMML-4_3"/>
   <dmn:businessKnowledgeModel id="_D35099F3-9C36-4ED8-8EF4-5D97B8BB6DF6" name="customersegments">
     <dmn:extensionElements/>
     <dmn:variable id="_A02468FF-50FF-488E-82E2-BD63E772F4C6" name="customersegments"/>
     <dmn:encapsulatedLogic id="_EF62AB49-3953-4E85-BBFA-FF8722729EBF" kind="PMML">
-      <dmn:formalParameter id="_C0E2532C-1D4B-47C4-AC68-CDAE301F1130" name="age" typeRef="Any"/>
-      <dmn:formalParameter id="_85CF40F0-46FE-4BC3-B60D-0496859CCAEC" name="class" typeRef="Any"/>
-      <dmn:formalParameter id="_C9CC3A26-0966-425B-A7D6-18CDF87B776C" name="income" typeRef="Any"/>
-      <dmn:formalParameter id="_C65BA0CA-2D0D-47AC-B9B8-3BDA0BDD926A" name="response" typeRef="Any"/>
+      <dmn:formalParameter id="_5EC45818-A2BE-4419-9FF6-8E5296277D93" name="age" typeRef="Any"/>
+      <dmn:formalParameter id="_A640C457-5E92-4520-9002-1EBDF166A649" name="income" typeRef="Any"/>
+      <dmn:formalParameter id="_8D77CA7A-BCB9-4167-A718-8EC366310048" name="response" typeRef="Any"/>
       <dmn:context id="_87AB219A-6478-43C5-9F3C-6888E2A6CAE8">
         <dmn:contextEntry>
           <dmn:variable id="_21CF9076-743D-48D7-A7AD-B467B0973BC1" name="document" typeRef="string"/>
@@ -265,8 +264,12 @@
             <kie:width>100.0</kie:width>
             <kie:width>200.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_14BE1743-A85D-46A8-9634-077D16D651BF"/>
-          <kie:ComponentWidths dmnElementRef="_68812167-D8EE-4B91-AD5B-B7260B020B96"/>
+          <kie:ComponentWidths dmnElementRef="_14BE1743-A85D-46A8-9634-077D16D651BF">
+            <kie:width>200.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_68812167-D8EE-4B91-AD5B-B7260B020B96">
+            <kie:width>200.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_EF62AB49-3953-4E85-BBFA-FF8722729EBF">
             <kie:width>50.0</kie:width>
             <kie:width>370.0</kie:width>

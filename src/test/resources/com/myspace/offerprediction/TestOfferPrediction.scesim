@@ -500,7 +500,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">4800</rawValue>
+            <rawValue class="string">23</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -533,7 +533,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">0</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -555,7 +555,7 @@
               <name>1|6</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;HIGH&quot;</rawValue>
+            <rawValue class="string">&quot;MEDIUM&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>

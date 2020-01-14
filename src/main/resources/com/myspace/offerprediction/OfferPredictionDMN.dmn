@@ -35,9 +35,6 @@
     <dmn:informationRequirement id="_F02B078F-A3C1-4202-B3ED-CD77E6CC586E">
       <dmn:requiredInput href="#_0EDC61FC-332A-4C05-A6F3-79FBD7EB9942"/>
     </dmn:informationRequirement>
-    <dmn:informationRequirement id="_DB28702A-9B64-4A7D-947E-071C8678C892">
-      <dmn:requiredInput href="#_EF5D8D6A-A19F-47D5-A16A-021E31D3EF82"/>
-    </dmn:informationRequirement>
     <dmn:informationRequirement id="_8CE8CEF7-F06D-4AD4-8F80-37B6554F0A34">
       <dmn:requiredInput href="#_85B5B8C9-2D81-4F24-8A1A-B4946A2FB9E5"/>
     </dmn:informationRequirement>
@@ -309,8 +306,12 @@
             <kie:width>100.0</kie:width>
             <kie:width>200.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_14BE1743-A85D-46A8-9634-077D16D651BF"/>
-          <kie:ComponentWidths dmnElementRef="_68812167-D8EE-4B91-AD5B-B7260B020B96"/>
+          <kie:ComponentWidths dmnElementRef="_14BE1743-A85D-46A8-9634-077D16D651BF">
+            <kie:width>200.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_68812167-D8EE-4B91-AD5B-B7260B020B96">
+            <kie:width>200.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_EF62AB49-3953-4E85-BBFA-FF8722729EBF">
             <kie:width>50.0</kie:width>
             <kie:width>370.0</kie:width>
@@ -393,7 +394,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="283.29906542056074" y="283" width="100" height="50"/>
+        <dc:Bounds x="284.5981308411215" y="283" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_EC01FD05-FBCF-4C5A-BC30-8337EF54874B" dmnElementRef="_EC01FD05-FBCF-4C5A-BC30-8337EF54874B" isCollapsed="false">
@@ -437,11 +438,7 @@
         <di:waypoint x="372" y="198"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_F02B078F-A3C1-4202-B3ED-CD77E6CC586E" dmnElementRef="_F02B078F-A3C1-4202-B3ED-CD77E6CC586E">
-        <di:waypoint x="333.29906542056074" y="283"/>
-        <di:waypoint x="372" y="198"/>
-      </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_DB28702A-9B64-4A7D-947E-071C8678C892" dmnElementRef="_DB28702A-9B64-4A7D-947E-071C8678C892">
-        <di:waypoint x="612" y="283"/>
+        <di:waypoint x="334.5981308411215" y="283"/>
         <di:waypoint x="372" y="198"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_8CE8CEF7-F06D-4AD4-8F80-37B6554F0A34" dmnElementRef="_8CE8CEF7-F06D-4AD4-8F80-37B6554F0A34">

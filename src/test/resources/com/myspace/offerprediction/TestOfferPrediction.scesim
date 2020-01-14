@@ -235,7 +235,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;AIRLINES&quot;</rawValue>
+            <rawValue class="string">&quot;HOTEL&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -257,7 +257,7 @@
               <name>1|7</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;No Active Offers&quot;</rawValue>
+            <rawValue class="string">&quot;Upgrade to a hospitality card today and start earning on your stays&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>

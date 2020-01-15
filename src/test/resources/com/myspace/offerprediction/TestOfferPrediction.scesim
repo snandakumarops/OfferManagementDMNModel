@@ -566,6 +566,7 @@
               <name>1|7</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Upgrade to Store card today and enjoy benefits when you shop!&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>

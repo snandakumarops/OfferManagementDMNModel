@@ -31,6 +31,24 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
+              <step>Current Event</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1579228220641</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Current Event</name>
+            <className>.Current Event</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>Current Event</factAlias>
+          <expressionAlias>value</expressionAlias>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
               <step>Age</step>
             </ExpressionElement>
           </expressionElements>
@@ -271,6 +289,17 @@
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Current Event</name>
+              <className>.Current Event</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1579228220641</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;HOTEL&quot;</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -373,6 +402,17 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Current Event</name>
+              <className>.Current Event</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1579228220641</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;AIRLINES&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -477,6 +517,17 @@
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Current Event</name>
+              <className>.Current Event</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1579228220641</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;MERCHANDISE&quot;</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -578,6 +629,17 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">4</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Current Event</name>
+              <className>.Current Event</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1579228220641</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;MERCHANDISE&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>

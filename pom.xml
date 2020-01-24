@@ -4,10 +4,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>OfferPrediction</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>kjar</packaging>
   <name>OfferPrediction</name>
   <description></description>
+  <distributionManagement>
+    <repository>
+      <id>maven-DM</id>
+      <name>maven-DM</name>
+      <url>http://nexus-nexus.apps.cluster-florida-ee6b.florida-ee6b.example.opentlc.com/repository/maven-DM/</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>

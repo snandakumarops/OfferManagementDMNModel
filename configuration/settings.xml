@@ -39,6 +39,16 @@
         </property>
       </activation>
       <repositories>
+                <repository>
+					<id>google-snapshots</id>
+					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+					<releases>
+						<enabled>false</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
         <repository>
           <id>redhat-ga-repository</id>
           <url>https://maven.repository.redhat.com/ga/</url>

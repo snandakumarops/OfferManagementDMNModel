@@ -6,9 +6,8 @@
   <artifactId>OfferPrediction</artifactId>
   <version>1.0.0</version>
   <packaging>kjar</packaging>
-  <name>OfferPrediction</name>
+  <name>OfferPrediction-1</name>
   <description></description>
-
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -89,26 +88,20 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-			<groupId>org.kie</groupId>
-			<artifactId>kie-dmn-jpmml</artifactId>
-			<version>7.27.0.Final</version>
-		</dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.jpmml/pmml-evaluator -->
-        <dependency>
-            <groupId>org.jpmml</groupId>
-            <artifactId>pmml-evaluator</artifactId>
-            <version>1.4.7</version>
-		
-        </dependency>
-		<!-- https://mvnrepository.com/artifact/org.jpmml/pmml-evaluator-extension -->
-		<dependency>
-			<groupId>org.jpmml</groupId>
-			<artifactId>pmml-evaluator-extension</artifactId>
-			<version>1.4.7</version>
-			
-		</dependency>
-
+      <groupId>org.kie</groupId>
+      <artifactId>kie-dmn-jpmml</artifactId>
+      <version>7.27.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jpmml</groupId>
+      <artifactId>pmml-evaluator</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jpmml</groupId>
+      <artifactId>pmml-evaluator-extension</artifactId>
+      <version>1.4.7</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -123,6 +116,18 @@
   <profiles>
     <profile>
       <id>openshift</id>
+      <distributionManagement>
+        <repository>
+          <id>nexus-releases</id>
+          <name>Nexus Releases</name>
+          <url>${env.NEXUSREPO}/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+          <id>nexus-snapshots</id>
+          <name>Nexus Snapshots</name>
+          <url>${env.NEXUSREPO}/repository/maven-snapshots/</url>
+        </snapshotRepository>
+      </distributionManagement>
       <repositories>
         <repository>
           <id>maven-DM</id>
@@ -130,20 +135,6 @@
           <url>${env.NEXUSREPO}/repository/maven-DM/</url>
         </repository>
       </repositories>
-      <distributionManagement>
-        <repository>
-          <id>nexus-releases</id>
-          <name>Nexus Releases</name>
-          <url>${env.NEXUSREPO}/repository/maven-releases/</url>
-          <layout>default</layout>
-        </repository>
-        <snapshotRepository>
-          <id>nexus-snapshots</id>
-          <name>Nexus Snapshots</name>
-          <url>${env.NEXUSREPO}/repository/maven-snapshots/</url>
-          <layout>default</layout>
-        </snapshotRepository>
-      </distributionManagement>
     </profile>
   </profiles>
 </project>

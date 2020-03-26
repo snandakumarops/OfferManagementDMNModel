@@ -3,8 +3,24 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>jboss-ga-plugin-repository</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
-        <url>https://repo1.maven.org/maven2</url>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-ga-repository</id>
+        <url>https://maven.repository.redhat.com/ga</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -12,16 +28,8 @@
       <include>true</include>
       <metadata>
         <id>local</id>
-        <url>/home/jboss/.m2/repository</url>
+        <url>/Users/sadhananandakumar/.m2/repository</url>
         <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>maven-DM</id>
-        <url>http://nexus-nexus.apps.cluster-florida-ee6b.florida-ee6b.example.opentlc.com/repository/maven-DM/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
       </metadata>
     </repository>
   </repositories>
